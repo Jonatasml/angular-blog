@@ -1,0 +1,7 @@
+h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 8em;
+  display: flex;
+  justify-content: center;
+}
