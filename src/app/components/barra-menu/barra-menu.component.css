@@ -1,0 +1,13 @@
+.navegacao {
+  position: relative;
+  width: 540px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  position: relative;
+  list-style: none;
+}
