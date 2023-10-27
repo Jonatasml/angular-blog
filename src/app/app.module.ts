@@ -9,6 +9,7 @@ import { CartaoPrincipalComponent } from './components/cartao-principal/cartao-p
 import { CartaoTitulosComponent } from './components/cartao-titulos/cartao-titulos.component';
 import { CartaoRodapeComponent } from './components/cartao-rodape/cartao-rodape.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ConteudoComponent } from './pages/conteudo/conteudo.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HomeComponent } from './pages/home/home.component';
     CartaoTitulosComponent,
     CartaoRodapeComponent,
     HomeComponent,
+    ConteudoComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

@@ -1,18 +1,13 @@
 <div class="conteudo">
   <div class="imagem">
-    <img src="assets/img/placeholder.png" alt="placeholder" />
+    <img src="{{ foto }}" alt="placeholder" />
   </div>
   <div class="titulo">
-    <a href="#">Titulo do cartão principal</a>
+    <a [routerLink]="['conteudo', id]">{{ titulo }}</a>
   </div>
   <div class="descricao">
     <p>
-      <a href="#"
-        >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-        delectus, libero distinctio perferendis ipsum vitae sit eos repellat.
-        Veritatis quaerat maiores non? Sunt hic nemo ex fugiat sit neque
-        rem!.</a
-      >
+      <a [routerLink]="['conteudo', id]">{{ descricao }}</a>
     </p>
   </div>
 </div>

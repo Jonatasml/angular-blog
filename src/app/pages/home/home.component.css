@@ -1,18 +1,22 @@
-.artigos {
-  margin-top: 30px;
-  display: flex;
-}
-
-.artigos_esquerda {
-  margin-right: 30px;
-}
-
-.artigos_direita,
-.artigos_esquerda {
-  width: 50%;
-}
-
 hr {
   margin-top: 35px;
   margin-bottom: 35px;
+}
+
+.artigos {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+
+.artigos_esquerda {
+  grid-area: 1 / 1 / 2 / 2;
+  margin-top: initial;
+}
+.artigos_direita {
+  grid-area: 1 / 2 / 2 / 4;
+  margin-top: initial;
 }
